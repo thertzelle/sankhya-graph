@@ -10,6 +10,10 @@ Sankhya Graphs are UIDesignable and allow you to quickly modify colors and prese
 
 All Contributions are welcome.
 
+### Major Contributors
+
+Special Thanks to my best buddy [@gadirajp](https://github.com/gadirajp) for helping me build this code. He is a great inspiration to the betterment of my swift code.
+
 ### TODO
 
    *   Convert Project into a Swift Framework that can easily be pulled down and used.
@@ -62,3 +66,4 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
+
