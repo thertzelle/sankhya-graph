@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Sankhya Graph View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SankhyaGraphViewController" customModule="SankhyaGraph" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ezv-Tc-Q8h" customClass="SankhyaGraph" customModule="SankhyaGraph" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="dashedLineColor">
+                                        <color key="value" red="0.1843137255" green="0.64313725489999995" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="hoverViewFillColor">
+                                        <color key="value" red="0.1843137255" green="0.64313725489999995" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="hoverViewStrokeColor">
+                                        <color key="value" red="0.16412089009017677" green="0.58700957182115265" blue="0.21580631473345363" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ezv-Tc-Q8h" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3no-hi-Z2C"/>
+                            <constraint firstItem="Ezv-Tc-Q8h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ffp-oq-LFd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ezv-Tc-Q8h" secondAttribute="bottom" id="nPQ-5d-5gS"/>
+                            <constraint firstAttribute="trailing" secondItem="Ezv-Tc-Q8h" secondAttribute="trailing" id="vck-xa-Ac1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="sankhyaGraph" destination="Ezv-Tc-Q8h" id="0It-PS-vwu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="445" y="446"/>
+        </scene>
+    </scenes>
+</document>
